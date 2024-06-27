@@ -1,0 +1,62 @@
+# Test your FastAPI endpoints
+
+###
+GET http://127.0.0.1:8000/produtos/
+Accept: application/json
+
+###
+DELETE http://127.0.0.1:8000/produtos/id
+Accept: application/json
+
+###
+GET http://127.0.0.1:8000/produtos_id/id
+Accept: application/json
+
+###
+POST http://127.0.0.1:8000/produtos_save/
+Accept: application/json
+
+
+
+###
+PUT http://127.0.0.1:8000/produtos_put/
+Accept: application/json
+
+###usuarios do sistema
+POST http://127.0.0.1:8000/usuario_save/
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/login/nome/senha
+Accept: application/json
+
+
+###comprar produto
+
+PUT http://127.0.0.1:8000/produtos_compra/id
+Accept: application/json
+
+###adicionar quantida em estoque
+
+PUT http://127.0.0.1:8000/produtos_compra_adicionar/id
+
+
+
+###criaçao de usuario api
+POST http://127.0.0.1:8000/users/
+Accept: application/json
+
+###obter token de acesso
+
+POST http://localhost:8000/token
+Accept: application/json
+
+###salvar categoria
+POST http://localhost:8000/categoria_save
+Accept: application/json
+
+###get all categorias
+GET http://localhost:8000/categorias
+Accept: application/json
+
